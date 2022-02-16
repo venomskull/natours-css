@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* above one is put in body as to inherit. it is a good practise */
+    box-sizing: inherit;
+}
+
+html {
+    /* font-size: 10px; */
+    /*
+        now, we need to write in %.
+        default font-size is 16px.
+        so 10/16=0.625
+        =>62.5%
+    */
+    /* this defines 1rem is */
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
