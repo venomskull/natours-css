@@ -1,0 +1,6 @@
+yarn init
+yarn add node-sass --save-dev
+"scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+}
+yarn run compile:sass
